@@ -1,0 +1,21 @@
+
+
+.scrolling-image-container {
+	overflow: hidden;
+}
+
+.scrolling-image {
+	background: url("spamton-spamton-dance.gif") repeat;
+	height: 999999px;
+	width: 999999px;
+	animation: slide 3s linear infinite;
+}
+
+@keyframes slide {
+	0% {
+	  transform: translate(0);
+	}
+	100% {
+	  transform: translate(-425px); /* The image width */
+	}
+  }
